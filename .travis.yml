@@ -1,0 +1,19 @@
+os: linux
+language: java
+install: true
+jdk: oraclejdk8
+script:
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "true" ]; then gradle jbake; fi'
+  - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then gradle publish; fi'
+
+before_cache:
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
+
+env:
+  global:
+  - secure: "QLAuyvAwvUUsKAWAvyjt4bPdmzVZa0DYs5jscxIkiuZBE85psjHtoajyO77j0tuqC0k+TwysKbRJ09BGa4IDdPmtvfdKHZ/rQyhXxSqiwvIrJFcoc7+hGF5hRIENrdlx2jA9WxIU9zQq61kOGlhBUWOwwePOTyzt7TXGSCs5TJHhlHjdNcZSFtICjOq7Y+ZuK38hpLduVL1Lzbkbs8GshrsVnarkfS2mQlRouuml5lQnCfy2rhACfNjChD3UN7V4UVOKvkyDkwhUz4/SFfyPrRPgYdCXXrgSmFjmLUXY1M84Iq/kJTeJETyINqfLb0vEbv4Y8vvP2UOl0ZuRXc02QOBK3taz8bBawFYNFcbhvd+Mxd6zET215+EtF+2Ob5B2iT8EgLxz5IGRlej6Ahhj7JEYH+agqqT8MkTtjrooDEp6lJElbeUtKoj9yct3cER9ADK6JwMBVD3Aex08TZKMhFRK+fMTkO/5MhX5uHXC3USxvpQF8BVAKM1XW6Hq6G7VLfg36VPq4bwBCH7Dy/BTgX+Ul09RcklYGh/e8VJj7wM3X63Hz/SdQPXt8VNoLdR46X38ucWuoNuLEfySvQt9yIxh0wj8h4iwUHNEGjF9TPdeYY5bvfmzMcsxFcPLuBt3eU2vkxtGxakqaMwjmM0iRoZGZRQMyTSZI+HgYCruZjc="
