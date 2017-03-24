@@ -5,8 +5,8 @@ $(document).ready(function(){
         success: function(dataWeGotViaJsonp){
         	var source   = $("#meetup-template").html();
         	var template = Handlebars.compile(source);
-        	console.log(data);
-        	$('#meetup-main').append(template(data[0]));
+        	console.log(dataWeGotViaJsonp);
+        	$('#meetup-main').append(template(dataWeGotViaJsonp[0]));
         }
 	})
 });
