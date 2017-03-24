@@ -9,7 +9,7 @@ $(document).ready(function(){
         }
 	})
 });
-
+var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
 var addLeadingZero = function( num ) {
 	return (num < 10) ? ('0' + num) : num;
 };
