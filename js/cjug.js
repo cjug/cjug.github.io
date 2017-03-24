@@ -9,5 +9,5 @@ function jsonCallback(data){
 	var source   = $("#meetup-template").html();
 	var template = Handlebars.compile(source);
 	console.log(data);
-	$('#meetup-main').append(template(data.results[0]));
+	$('#meetup-main').append(template(data[0]));
 }
