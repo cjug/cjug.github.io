@@ -10,5 +10,5 @@ $(document).ready(function(){
 function jsonpCallback(data){
 	var source   = $("#meetup-template").html();
 	var template = Handlebars.compile(source);
-	$('#meetup-main').append(template(data['0']));
+	$('#meetup-main').append(template(data['results'][0]));
 }
