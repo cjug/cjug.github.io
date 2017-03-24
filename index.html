@@ -28,17 +28,19 @@
 	    <div>
 	    	{{formatDate time}}
 	    </div>
-	    <div class="panel-heading">
-	      <h4 class="panel-title">
-		    <div data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">
-	          Abstract
-	        </div>
-	      </h4>
-	    </div>
-	    <div id="collapse{{@index}}" class="panel-collapse collapse">
-	      	<div class="panel-body">
-		      {{{description}}}
+	    <div class="panel panel-default">
+		    <div class="panel-heading">
+		      <h4 class="panel-title">
+			    <div data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">
+		          Abstract
+		        </div>
+		      </h4>
 		    </div>
+		    <div id="collapse{{@index}}" class="panel-collapse collapse">
+		      	<div class="panel-body">
+			      {{{description}}}
+			    </div>
+			</div>
 		</div>
 	    {{/each}}
 	    </div>
