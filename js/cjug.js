@@ -6,7 +6,7 @@ $(document).ready(function(){
         	var source   = $("#meetup-template").html();
         	var template = Handlebars.compile(source);
         	console.log(dataWeGotViaJsonp);
-        	$('#meetup-main').append(template(dataWeGotViaJsonp.data[0]));
+        	$('#meetup-main').append(template(dataWeGotViaJsonp['data'][0]));
         }
 	})
 });
