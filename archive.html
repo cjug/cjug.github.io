@@ -22,11 +22,13 @@
     <script src="js/jquery-1.11.1.min.js"></script>
     <script id="meetup-template" type="text/x-handlebars-template">
 	  <div class="meetup">
-	    <h1>{{name}}</h1>
+	    {{#each data}}
+	    <h2><a href="{{link}}">{{name}}</a></h2>
 	    <div class="body">
-	      {{description}}
+	      {{{description}}}
 	    </div>
 	  </div>
+	  {{/each}}
 	</script>
 
     <!-- Fav and touch icons -->
