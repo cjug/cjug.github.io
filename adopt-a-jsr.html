@@ -19,6 +19,15 @@
     <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
     <![endif]-->
+    
+    <script id="meetup-template" type="text/x-handlebars-template">
+	  <div class="meetup">
+	    <h1>{{name}}</h1>
+	    <div class="body">
+	      {{description}}
+	    </div>
+	  </div>
+	</script>
 
     <!-- Fav and touch icons -->
     <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
@@ -95,6 +104,7 @@
     <script src="js/jquery-1.11.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/prettify.js"></script>
-    
+    <script src="js/handlebars.runtime-v4.0.5.js"></script>
+    <script src="js/cjug.js"></script>
   </body>
 </html>
