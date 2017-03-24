@@ -22,12 +22,21 @@
     <script src="../../js/jquery-1.11.1.min.js"></script>
     <script id="meetup-template" type="text/x-handlebars-template">
 	  <div class="meetup">
+	  	<div class="panel-group" id="accordion">
 	    {{#each data}}
 	    <h2><a href="{{link}}">{{name}}</a></h2>
-	    <div class="body">
-	      {{{description}}}
+	    <div>
+	    <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">
+          Abstract
+        </a>
 	    </div>
+	    <div id="collapse{{@index}}" class="panel-collapse collapse">
+	      	<div class="panel-body">
+		      {{{description}}}
+		    </div>
+		</div>
 	    {{/each}}
+	    </div>
 	  </div>
 	</script>
 
