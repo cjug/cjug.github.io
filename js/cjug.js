@@ -9,3 +9,26 @@ $(document).ready(function(){
         }
 	})
 });
+
+var addLeadingZero = function( num ) {
+	return (num < 10) ? ('0' + num) : num;
+};
+var getFormattedDate = function( millis ) {
+	var date = new Date( millis );
+	return  months[date.getMonth()] + ' ' + addLeadingZero( date.getDate() ) + ', ' + date.getFullYear().toString();
+};
+var getFormattedTime = function( millis ) {
+	var	time = new Date( millis ),
+			hours = time.getHours(),
+			min = time.getMinutes(),
+			ampm = (hours > 11) ? 'PM' : 'AM';
+	min = (min < 10) ? ('0' + min) : min;
+	hours = (hours == 0) ? 1 : hours;
+	hours = (hours > 12) ? hours-12 : hours;
+	return hours + ':' + min + ' ' + ampm;
+};
+
+Handlebars.registerHelper("formatDate", function(datetime) {
+	
+	return getFormattedDate(datetime) + " | " getFormattedTime(datetime);
+}

@@ -26,10 +26,11 @@
 	    {{#each data}}
 	    <h2><a href="{{link}}">{{name}}</a></h2>
 	    <div>
-	    <a data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">
-          Abstract
-        </a>
+	    	{{formatDate time}}
 	    </div>
+	    <div data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">
+          Abstract
+        </div>
 	    <div id="collapse{{@index}}" class="panel-collapse collapse">
 	      	<div class="panel-body">
 		      {{{description}}}
