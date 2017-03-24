@@ -27,8 +27,8 @@
 	    <div class="body">
 	      {{{description}}}
 	    </div>
+	    {{/each}}
 	  </div>
-	  {{/each}}
 	</script>
 
     <!-- Fav and touch icons -->
