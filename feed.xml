@@ -6,8 +6,8 @@
     <atom:link href="http://cjug.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Chicago Java User Group</description>
     <language>en-us</language>
-    <pubDate>Fri, 24 Mar 2017 05:13:53 +0000</pubDate>
-    <lastBuildDate>Fri, 24 Mar 2017 05:13:53 +0000</lastBuildDate>
+    <pubDate>Sat, 25 Mar 2017 22:41:08 +0000</pubDate>
+    <lastBuildDate>Sat, 25 Mar 2017 22:41:08 +0000</lastBuildDate>
 
     <item>
       <title>Welcome to CJUG</title>
@@ -17,6 +17,201 @@
       	<description>
 	&lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Welcome to the NEW CJUG Website.&lt;/p&gt;
+&lt;/div&gt;
+	</description>
+    </item>
+    <item>
+      <title>Newsletter March 2017</title>
+      <link>http://cjug.org/blog/2017/newsletter-mar.html</link>
+      <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">blog/2017/newsletter-mar.html</guid>
+      	<description>
+	&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Hello CJUG-ers!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I hope your year has been shaping up well so far with all the amazing tech events in the city. I’m thrilled, as the new Community Leader for Chicago Java Users Group, to be sending out an update for all the exciting meetups we have planned. Just as a quick retrospective, so far we’ve had great speakers to start off our year, eg. Paul Naumann gave a talk on Building a Better JVM couple of weeks ago, Bob Paulin and Michael Minella talked about Breaking Into Open Source. Hopefully you’ve also had a chance to mingle with the speakers at one of the after-meetup-drinks too!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;I also encourage you to take the survey for the topics you’d like to see speakers talk on. You can vote for Johan Andrén to speak on Akka Clustering or Akka Streaming and Alpakka.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We want to get attendees more involved with the community. Feel free to find one of us Board Members at a meetup and we can explore ideas together on how to get you more connected with the community and/or with mentors/mentees. Participating in Office Hours is also a great way to engage with engineers who share your passion for all things Java/JVM! We’re also active in #java, #scala, #kotlin etc. on &lt;a href=&quot;chicagotechslack.com&quot;&gt;chicagotechslack.com&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_upcoming_cjug_meetups&quot;&gt;Upcoming CJUG Meetups&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/238044574/&quot;&gt;CJUG Office Hours - Janine Patterson &amp;amp; Todd Ginsberg (March 21)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Need help with a project?  Would you like a second pair of eyes to dig into that tricky issue you’ve been facing?  Or do you just want to hang out with your laptop and some people after work?  We’ve got just the thing for you!  Introducing CJUG Office Hours!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Office Hours will be hosted after work.  Every session will have at least one aide in attendance for the full session.  The purpose of these sessions is similar to that of a ‘coffee and code’ - connecting with people who want to work on personal projects, get a code review, or just hang out.  There is no set format and you may come and go as you please.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/237330626/&quot;&gt;Marcus Hirt: Java Mission Control &amp;amp; JFR in JDK 9: A Sneak Peek (March 28)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In JDK 9, the JFR APIs will become supported, so you can now rely on the JFR APIs for both controlling Oracle Java Flight Recorder and introducing your own custom JFR data into the recordings. Also, with JDK 9, a new major, very different version of the Oracle Java Mission Control feature of Oracle Java SE Advanced will be released.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;This session takes a sneak peek into what the new APIs for controlling the Oracle Java Flight Recorder feature will look like and provides migration guidelines from the old APIs. It also goes through some of the highlights of the completely redesigned Oracle Java Mission Control 6.0.0, such as the automatic analysis of flight recordings.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/238213369/&quot;&gt;GOTO NIGHTS with Frank Greco, Jim Weaver and Ed Burns (April 4)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Introduction to Machine Learning for Java Developers&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Machine Learning (ML) is a powerful data analytics tool that essentially allows machines to solve problems without explicit programming. ML is used in search, marketing, adaptive websites, online advertising, stock market analysis, and even inside of IDE&amp;#8217;s.  Google&amp;#8217;s CEO, Sundar Pichai, has said his company is betting big on advances in artificial intelligence (AI) and machine learning in the coming years.  Tim Cook from Apple stated &quot;Today, machine learning drives improvement in countless features across our products”.  At Microsoft&amp;#8217;s Ignite conference, CEO Satya Nadella talked about his vision for how deep learning and AI will transform the company.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;But what exactly is ML?  How is it different from the previous AI technology cycle?  What use cases are suitable for ML?  And most importantly, how can we Java developers take advantage of ML in our applications?&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We&amp;#8217;ll take a look at the various ML services and tools available to Java developers.  In particular we&amp;#8217;ll explore the Watson Java SDK to demonstrate some powerful ML functionality on a mobile device.  Also, we&amp;#8217;ll discuss the details of an exciting, proposed JSR for visual recognition.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/237891217/&quot;&gt;Heather VanCura and Charlie Hunt Present: Hacking on Java 9 Round 2 (April 11)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Bring your project and run it on Java 9 EA with fellow CJUG members! See if the performance improvements Charlie and Heather did a hack day for us in April 2016.  Java 9 is targeted for release for July 2017 but that doesn&amp;#8217;t mean you need to wait until next year to understand how the new features might benefit your projects. Charlie will be there for anything that breaks (no pressure). Also learn how to take part in Java technology evolution through the Java Community Process (JCP) program run by Heather VanCura. You can participate as an individual, corporation, or nonprofit such as a Java user group (JUG). This session gives you step-by-step instructions on how to participate in the JCP Program with the new membership levels. You will also learn about the global Adopt-a-JSR program and how you can participate in the Adopt-a-JSR program through CJUG. Find out how you have contribute to the future editions of the Java Standard and Java Enterprise Editions.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_other_events&quot;&gt;Other Events&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://event.scaladays.org/scaladays-chicago-2017&quot;&gt;Scala Days (Chicago, April 18-21)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Scala Days, the premier Scala Conference, will be held this year at Swissôtel in Chicago. Trainings will be on April 18th - 19th, 2017, and the conference will be held from April 19th - 21st, 2017. Leaders from Scala User Groups and communities around the globe, students and language contributors, will gather to discuss academic research, use-cases and visionary projects for a two day, action-packed event. &lt;strong&gt;Use ‘Scaladaysfriend’ code for 20% off tix!&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://gotochgo.com/&quot;&gt;GoTo Conference (Chicago, May 1-4)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Your local Chicago Conference. Great presenters, great people, local venue. This should be an easy win for you to convince your boss to sign-up for! &lt;strong&gt;Use code &quot;CJUGgoto&quot; for $120 off.&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Extra-special goto sessions which might be relevant to CJUG:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://gotochgo.com/2017/sessions/54&quot;&gt;Javaloution! (How I learned to stop worrying and play Jenga! with the entire software industry. What could possibly go wrong?”)&lt;/a&gt; with Georges Saab&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://gotochgo.com/2017/sessions/47&quot;&gt;keynote Martin Fowler: Software Design in the 21st Century&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;With that, see you at the next CJUG!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Amrita Chavan&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+	</description>
+    </item>
+    <item>
+      <title>Newsletter February 2017</title>
+      <link>http://cjug.org/blog/2017/newsletter-feb.html</link>
+      <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">blog/2017/newsletter-feb.html</guid>
+      	<description>
+	&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;It&amp;#8217;s the a new year, and is an exciting year for CJUG&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;2016 may have been a rocky year in general, but we know it actually rocked for CJUG! We cross 2000 members in our Meetup page, had great presenters from Simon Ritter, to Arun Gupta, and Markus Eisele! We also have new local talent stepping up and presenting (like Andres Olarte) and we have more brave souls coming to Lightning talks. We also have cross-pollination events with the Python and Ruby community (and throw some lit parties this year). In all CJUG flourished this past year!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;So this year is going to be even more ambitious! In terms of leadership Bob Paulin is stepping down as the President (don&amp;#8217;t worry, he&amp;#8217;s now our CFO, ah, term limits) and after voting I was given the honor of leading the organization for a year (as far as we know no russian hacking involved :).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;So in all, CJUG sports new leadership, and as President, I promise that this is the year of great expansion. We want to get YOU more involved and we are planning on doing even more events and activites to make sure that Chicago is still THE place to be a Java Technologist. CJUG wants you to be exposed to all of our tech companies here in Chicago, and to be a geek with everyone in our community!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In that vein, meet all of our new leadership&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Amrita Chavan (Community Leader):&lt;/strong&gt; Amrita has been a staple in our CJUG Meetups, being a professional Developer for more than 5 years, she is interested in everything technology. She is usually seen working the camera and making sure CJUG Meetups are available to everyone&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Mary Grygleski (Meeting Director):&lt;/strong&gt; Mary has been riding the software tech waves since the late 80&amp;#8217;s as a developer in various capacities, started with C/Unix in the early 90&amp;#8217;s, then migrated to Java, Open Source, and Web in the early 21st century, and now venturing into Mobile and DevOps space. She continues to be amazed by how software innovations can be used to transform our lives, and is already wondering what the next wave will look like.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Liz Schuering (Sponsorship Director):&lt;/strong&gt; Liz is Director of Operations at Spantree Technology Group, a Chicago-based boutique software development consultancy. As our new Director of Sponsorship, she is excited to help the CJUG connect with the great companies that make up Chicago&amp;#8217;s dynamic and thriving technology scene. Interested in sponsoring the CJUG or hosting an upcoming talk? Send Liz an email at &lt;a href=&quot;mailto:liz.schuering@cjug.org&quot;&gt;liz.schuering@cjug.org&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Bob Paulin (CFO):&lt;/strong&gt; Our own ex-President that needs no introduction! Bob is taking care of our finances this year, making sure we keep it in the straight and narrow&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;Todd Ginsberg (Deputy CFO):&lt;/strong&gt; Todd Ginsberg is a Sr. Software Developer at Mesirow financial. He&amp;#8217;s live in Chicago for two years, having moved here from Austin, TX. He has been actively developing with Java since late 1995 (21 years!).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Do reach out to them whenever you see them. Talk to them, get to know them! We are all here for you and making CJUG great!&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_upcoming_cjug_meetups&quot;&gt;Upcoming CJUG Meetups&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/237330029/&quot;&gt;Josh Juneau and Bob Paulin present: Adopt-a-JSR (ONLINE ONLY) (Feb 15th)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Java EE 8 is under active development, and JDK 9 is now feature complete.  There are many areas in which the community can contribute to each of these efforts. Adopt-a-JSR is a grassroots initiative developed by JUG leaders to encourage JUG members to get involved in a JSR. The CJUG has adopted JSR 366: Java Platform, Enterprise Edition 8 (Java EE 8 Specification, and we plan to help make a difference in the future of Java EE! We have also adopted JSR 379 (Java SE 9 Platform Umbrella), and we’re furthering our involvement by working on OpenJDK initiatives in this session.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Paul Nauman presents: Building a Better JVM (Feb 28th)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In this session we’ll examine the case for building an open-source Java Virtual Machine (JVM) in Java. We’ll look at a brief history of some previous disruptive technologies. We’ll consider what a JVM does and how it works, and we’ll discuss some of the indications that existing implementations are problematic. Then we’ll look at some examples of JVMs written in Java and the implementation challenges of such an approach. Finally we’ll consider a fledgling project that could serve to start this transition.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_other_events&quot;&gt;Other Events&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.devnexus.com/s/index&quot;&gt;DevNexus (Atlanta, Feb 22-24)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;is fast approaching! The Atlanta Conference is not just a great conference, but it&amp;#8217;s also the best &quot;Bang for the buck&quot; for employers. It&amp;#8217;s one of the most inexpensive conference that brings incredible talent to talk everything from Java to Javascript (ok not everything, but everything that&amp;#8217;s relevant right?). Come check them out, and ask your employer to buy the super-cheap conference. Get brownie points for being so conservative in your training budget, and don&amp;#8217;t forget to attend the live podcast session with the CJUG crowd (Java OffHeap!). Hope to see you there!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/goto-nights-chicago/events/236697003/&quot;&gt;GoTo Nights with Chris Richardon on Eventual Consistency (Feb 16th)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;In anticipation of goto;Chicago, we&amp;#8217;re offering GOTO Nights for local developers to stay up to date with the latest tools, technologies, processes and practices in the software industry. First up is Chris Richardson!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://gotochgo.com/&quot;&gt;GoTo Conference (Chicago, May 1-4)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Your local Chicago Conference. Great presenters, great people, local venue. This should be an easy win for you to convince your boss to sign-up for! In addition, we have a 100$-off coupon for CJUG Members! Use code &quot;cJavaUG&quot;
+Extra-special goto sessions which might be relevant to CJUG:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://gotochgo.com/2017/sessions/54&quot;&gt;Javaloution! (How I learned to stop worrying and play Jenga! with the entire software industry. What could possibly go wrong?”)&lt;/a&gt; with Georges Saab&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://gotochgo.com/2017/sessions/47&quot;&gt;keynote Martin Fowler: Software Design in the 21st Century&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Freddie Guime&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 	</description>
     </item>
