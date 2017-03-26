@@ -2,13 +2,16 @@ $(document).ready(function(){
 	$.ajax({
 		url: 'https://d1jzw0asklb6cp.cloudfront.net/ChicagoJug/events?photo-host=public&page=20&sig_id=13119970&sig=a0149059896b0b89fcaae31aeebe1be10df14570',
 		dataType: 'jsonp',
-        success: function(dataWeGotViaJsonp){
-        	var source   = $("#meetup-template").html();
-        	var template = Handlebars.compile(source);
-        	$('#meetup-main').append(template(dataWeGotViaJsonp));
-        }
+		jsonpCallback: "meetupJsonpCallback"
 	})
 });
+
+function meetupJsonpCallback(dataWeGotViaJsonp){
+	var source   = $("#meetup-template").html();
+	var template = Handlebars.compile(source);
+	$('#meetup-main').append(template(dataWeGotViaJsonp));
+}
+
 var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 var addLeadingZero = function( num ) {
 	return (num < 10) ? ('0' + num) : num;
