@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Sponsorship</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="JBake">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/asciidoctor.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/prettify.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script id="meetup-template" type="text/x-handlebars-template">
+	  <div class="meetup">
+	  	<div class="panel-group" id="accordion">
+	    {{#each data}}
+	    <h2><a href="{{link}}">{{name}}</a></h2>
+	    <h5>
+	      {{formatDate time}}
+	      -
+	      {{#ifCond (math rsvp_limit '-' yes_rsvp_count) '>' 0}}
+	        {{math rsvp_limit '-' yes_rsvp_count}} Spots Left
+	      {{else}}
+	        Waitlist
+	      {{/ifCond}}
+	    </h5>
+	    <div class="panel panel-default">
+		    <div class="panel-heading">
+		      <h4 class="panel-title">
+			    <div data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">
+		          <a href="#" data-toggle="tooltip" data-placement="top" title="Expand">Abstract</a>
+		        </div>
+		      </h4>
+		    </div>
+		    <div id="collapse{{@index}}" class="panel-collapse collapse">
+		      	<div class="panel-body">
+			      {{{description}}}
+			    </div>
+			</div>
+		</div>
+		<br></br>
+	    {{/each}}
+	    </div>
+	  </div>
+	</script>
+
+    <!-- Fav and touch icons -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+    <link rel="shortcut icon" href="favicon.ico">
+  </head>
+  <body onload="prettyPrint()">
+    <div id="wrap">
+
+	<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=""></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="officers-and-board.html">Officers and Board</a></li>
+            <li><a href="adopt-a-jsr.html">Adopt-A-JSR</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sponsorship
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="sponsorship.html">Sponsorship Levels</a>
+                    </li>
+                    <li>
+                        <a href="sponsorship-tips.html">Sponsorship Tips</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="feed.xml">Subscribe</a></li>
+            <!--<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>-->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container">	<div class="page-header">
+        <img src="images/cjug_banner.jpeg"></img>
+    </div>
+	
+	<div class="page-header">
+		<h1>Sponsorship</h1>
+	</div>
+
+	<p><div>
+    <h3>Be a Sponsor</h3>
+    <div>
+        <p>
+            One goal of the CJUG is to allow developers to meet, discuss and learn from our regularly scheduled
+            presentations. These meetings are a fantastic opportunity to connect or network with recruiters and the
+            Chicago tech industry, if one is so inclined. Benefits of this symbiotic relationship between developers and
+            recruiters includes career opportunities, different event hosting locations, raffles, freebies and
+            discounts. Many years ago CJUG relied on membership fees to cover a minimal set of expenses. With
+            anticipated growth from a events for the developer community, including the ability to invite guest speakers
+            from outside of Chicago.
+        <p/>
+        <p>
+            If you are a Java professional you should expect to see more benefits from future CJUG activities and the
+            quality of our presentation events. There will be “rules of engagement” between our paying sponsors and you
+            as a member, in general we don’t want members to be overwhelmed by sponsors, so we try to make attendance to
+            this portion of the event separate and optional.
+        </p>
+        <p>
+            If you are interested in becoming a sponsor we are offering multiple levels of privileges (shared or
+            exclusive) such as speaking or presenting briefly at a meeting, emailing the user list, hosting
+            opportunities and other advertising or marketing opportunities through CJUG. Note that this means we are
+            closing the “free” channels of advertising such as the now disabled chicago-java-advertise@yahoogroups.com,
+            Jobs and Promotions on the LinkedIn group, etc. Please see below for pricing and contact us through the
+            http://cjug.org web site or email cjug@cjug.org.
+        </p>
+        <p>
+            Based on feedback from our members, attendees, and sponsors, they have asked us to eliminate any sponsor
+            attendee’s that are not paid sponsors. Thus we have a policy of not allowing non-paid sponsors to attend,
+            they will be asked to leave.
+        </p>
+        <p>
+            3 important facts that may interest you…
+        <ol>
+            <li>CJUG, founded in 1995, is one of the oldest ORACLE JAVA USER GROUPS in country</li>
+            <li>CJUG is the 2nd Largest JAVA USER GROUP in country – with literally thousands of Illinois Java
+                Professionals!
+            </li>
+            <li>If you only get one person from CJUG – sponsorship more than pays for itself!</li>
+        </ol>
+        </p>
+        <h3>Sponsorship Levels</h3>
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                            <b>Platinum Level</b> ($20,000 or board approved equivalent of goods and services to CJUG.)
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Branding presentations and track with sponsor information.<br/>
+                        Company and job posting information on CJUG website along with sponsor directed email.<br/>
+                        15 minute presentation before sponsored track.<br/>
+                        All Events for track hosted at sponsor designated locations.<br/>
+                        Sponsor brand awareness to members (full access to email list, attendee list).<br/>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                            <b>Gold Level</b> ($5,000 or board approved equivalent of goods and services to CJUG.)
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Two “directed” presentations.<br/>
+                        One Company and job posting information with 2 sentence message to be sent with event
+                        announcement.<br/>
+                        One 15 minute approved presentation.<br/>
+                        Event hosted at your location.<br/>
+                        3 emails to our member base on behalf of your company.<br/>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+                            <b>Silver Level</b> ($ 2,500 or board approved equivalent of goods and services to CJUG.)
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        One “directed” presentation.<br/>
+                        Company information to be sent with event email announcement.<br/>
+                        A 10 minute approved presentation.<br/>
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+                            <b>Bronze Level</b> ($ 750 or board approved equivalent of goods and services to CJUG.)
+                        </a>
+                    </h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        Sponsorship of one CJUG meeting (venue, location, time, and track chosen by CJUG).<br/>
+                        Company sponsorship noted on website.<br/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</p>
+
+	<hr />
+
+		</div>
+		<div id="push"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">&copy; 2017 Chicago Java User Group</p>
+      </div>
+    </div>
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/prettify.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+    <script src="js/cjug.js"></script>
+  </body>
+</html>
