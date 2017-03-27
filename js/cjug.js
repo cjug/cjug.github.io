@@ -9,7 +9,7 @@ $(document).ready(function(){
 function meetupJsonpCallback(dataWeGotViaJsonp){
 	var source   = $("#meetup-template").html();
 	var template = Handlebars.compile(source);
-	$('#meetup-main').append(template(dataWeGotViaJsonp));
+	$('#meetup-main').html(template(dataWeGotViaJsonp));
 }
 
 var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
