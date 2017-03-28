@@ -61,7 +61,7 @@
         {{/if}}
         <h4><a href="{{url}}">{{name}}</a></h4>
         <div>{{info}}</div>
-		<br></br>
+		<hr/>
         {{/each}}
       </div>
     </script>
