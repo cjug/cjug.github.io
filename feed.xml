@@ -6,8 +6,8 @@
     <atom:link href="http://cjug.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Chicago Java User Group</description>
     <language>en-us</language>
-    <pubDate>Tue, 28 Mar 2017 02:32:55 +0000</pubDate>
-    <lastBuildDate>Tue, 28 Mar 2017 02:32:55 +0000</lastBuildDate>
+    <pubDate>Tue, 28 Mar 2017 02:48:59 +0000</pubDate>
+    <lastBuildDate>Tue, 28 Mar 2017 02:48:59 +0000</lastBuildDate>
 
     <item>
       <title>Welcome to CJUG</title>
@@ -38,7 +38,7 @@
 &lt;p&gt;I also encourage you to take the survey for the topics you’d like to see speakers talk on. You can vote for Johan Andrén to speak on Akka Clustering or Akka Streaming and Alpakka.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;We want to get attendees more involved with the community. Feel free to find one of us Board Members at a meetup and we can explore ideas together on how to get you more connected with the community and/or with mentors/mentees. Participating in Office Hours is also a great way to engage with engineers who share your passion for all things Java/JVM! We’re also active in #java, #scala, #kotlin etc. on &lt;a href=&quot;chicagotechslack.com&quot;&gt;chicagotechslack.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We want to get attendees more involved with the community. Feel free to find one of us Board Members at a meetup and we can explore ideas together on how to get you more connected with the community and/or with mentors/mentees. Participating in Office Hours is also a great way to engage with engineers who share your passion for all things Java/JVM! We’re also active in #java, #scala, #kotlin etc. on &lt;a href=&quot;https://chicago-tech.slack.com&quot;&gt;chicago-tech.slack.com&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
