@@ -53,6 +53,18 @@
 	    </div>
 	  </div>
 	</script>
+	<script id="meetup-sponsors-template" type="text/x-handlebars-template">
+      <div class="meetup-sponsors" align="center">
+        {{#each sponsors}}
+        {{#if image_url}}
+        <a href="{{url}}"><img src="{{image_url}}"></a>
+        {{/if}}
+        <h4><a href="{{url}}">{{name}}</a></h4>
+        <div>{{info}}</div>
+		<br></br>
+        {{/each}}
+      </div>
+    </script>
 
     <!-- Fav and touch icons -->
     <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">

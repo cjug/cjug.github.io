@@ -53,6 +53,18 @@
 	    </div>
 	  </div>
 	</script>
+	<script id="meetup-sponsors-template" type="text/x-handlebars-template">
+      <div class="meetup-sponsors" align="center">
+        {{#each sponsors}}
+        {{#if image_url}}
+        <a href="{{url}}"><img src="{{image_url}}"></a>
+        {{/if}}
+        <h4><a href="{{url}}">{{name}}</a></h4>
+        <div>{{info}}</div>
+		<br></br>
+        {{/each}}
+      </div>
+    </script>
 
     <!-- Fav and touch icons -->
     <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
@@ -147,9 +159,19 @@
                 </span>
             </a>
             <br/><br/>
+            <a href="https://twitter.com/cjug" style="text-decoration:none;">
+                <img src="images/Twitter_Logo_White_On_Blue.png" width="23" height="23" border="0">
+                <span style="font: 115% Arial,sans-serif; display:inline-block; vertical-align:middle;">
+                    &nbsp;@cjug
+                </span>
+            </a>
+            <!--
             <a class="twitter-timeline" href="https://twitter.com/cjug" data-tweet-limit="5">Tweets by cjug</a>
             <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             <br/><br/>
+            -->
+            <h2>Sponsors</h2>
+            <div id="meetup-sponsors-main"></div>
         </div>
 	</div>
 

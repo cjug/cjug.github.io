@@ -4,12 +4,23 @@ $(document).ready(function(){
 		dataType: 'jsonp',
 		jsonpCallback: "meetupJsonpCallback"
 	})
+	$.ajax({
+        url:'https://d1jzw0asklb6cp.cloudfront.net/2/groups?offset=0&format=json&group_id=6705342&photo-host=public&page=500&radius=25.0&fields=sponsors&order=id&desc=false&sig_id=193192469&sig=91943848b798fdfce1bf1ebdcf65372827f1da78',
+        dataType: 'jsonp',
+        jsonpCallback: "meetupSponsorJsonpCallback"
+	})
 });
 
 function meetupJsonpCallback(dataWeGotViaJsonp){
 	var source   = $("#meetup-template").html();
 	var template = Handlebars.compile(source);
 	$('#meetup-main').html(template(dataWeGotViaJsonp));
+}
+
+function meetupSponsorJsonpCallback(dataWeGotViaJsonp){
+	var source   = $("#meetup-sponsors-template").html();
+	var template = Handlebars.compile(source);
+	$('#meetup-sponsors-main').html(template(dataWeGotViaJsonp.results[0]));
 }
 
 var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
