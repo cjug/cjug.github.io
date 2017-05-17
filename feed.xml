@@ -6,9 +6,85 @@
     <atom:link href="http://cjug.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Chicago Java User Group</description>
     <language>en-us</language>
-    <pubDate>Thu, 20 Apr 2017 13:29:17 +0000</pubDate>
-    <lastBuildDate>Thu, 20 Apr 2017 13:29:17 +0000</lastBuildDate>
+    <pubDate>Wed, 17 May 2017 00:42:06 +0000</pubDate>
+    <lastBuildDate>Wed, 17 May 2017 00:42:06 +0000</lastBuildDate>
 
+    <item>
+      <title>Newsletter April 2017</title>
+      <link>http://cjug.org/blog/2017/newsletter-apr.html</link>
+      <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">blog/2017/newsletter-apr.html</guid>
+      	<description>
+	&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Hey everyone!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Hope y&amp;#8217;all are enjoying the nice weather and blooms everywhere! CJUG is excited to bring you fresh talks this Spring. If you have kids and they&amp;#8217;re ready to start hacking, GoTo Jr. is this Sunday, April 30th. We have Spring Days coming up May 30-31 And GoTo Conference that&amp;#8217;s coming up next week May 1-4. We are also bringing Marcin Grzejszczak and Venkat Subramaniam for CJUG specials! Details below:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/goto-nights-chicago/events/239122867/&quot;&gt;GOTO Junior Workshops for Kids - April 30&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The GoTo Jr Conference is around the corner, and there are still spots available! Come join one of our many sessions aged for kids 6 to 17. From Minecraft Modding, to Learning HTML, to Raspberry Pi and robotics and app development, these sessions will really create a serious geek out of your kids. Run by the organizers of one of the best professional conferences in the area, and with instructors from the Java User Group, Girls Who Code and Hak4Kidz we can guarantee the content will be like no other!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://gotochgo.com/&quot;&gt;GoTo Conference (Chicago, May 1-4)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Your local Chicago Conference. Great presenters, great people, local venue. This should be an easy win for you to convince your boss to sign-up for! Use code &quot;CJUGgoto&quot; for $120 off.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Extra-special goto sessions which might be relevant to CJUG:&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://gotochgo.com/2017/sessions/54&quot;&gt;Javaloution! (How I learned to stop worrying and play Jenga! with the entire software industry. What could possibly go wrong?”)&lt;/a&gt; with Georges Saab&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://gotochgo.com/2017/sessions/47&quot;&gt;keynote Martin Fowler: Software Design in the 21st Century&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/237330121/&quot;&gt;Venkat Subramaniam Presents: Reactive Programming - May 9&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Reactive Programming is gaining a lot of excitement with multiple libraries available for different languages. What’s the reason for that, what has changed? In this presentation we will start with that question and learn about the problem that reactive programming aims to directly solve. Then we will dive into the programming abstraction and look at the various facilities available to create reactive applications. Along the way we will touch on practical applications that are already using the reactive programming model and some of the constraints and solutions that vary across different applications.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/238468346/&quot;&gt;Marcin Grzejszczak: Consumer-Driven Contracts and Your Microservice Architecture - May 23&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Consumer driven contracts (CDC) are like TDD applied to the API. It’s especially important in the world of microservices. Since it’s driven by consumers, it’s much more user friendly. Of course microservices are really cool, but most people do not take into consideration plenty of potential obstacles that should be tackled. Then instead of frequent, fully automated deploys via a delivery pipeline, you might end up in an asylum due to frequent mental breakdowns caused by production disasters.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We will write a system using the CDC approach together with Spring Boot, Spring Cloud Contract verifier. I’ll show you how easy it is to write applications that have a consumer driven API and that will allow a developer to speed up the time of writing his better quality software.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;And last but not the least, to wrap May off, we have
+&lt;a href=&quot;https://www.springdays.io/ehome/spring-days/chicago&quot;&gt;Spring Days 2017 - Chicago - May 30-31&lt;/a&gt;
+Cloud computing ushered in a software renaissance, and while there has never been a better time to be a developer, technology evolves at an overwhelming speed. Spring has never been more relevant, but is also rapidly advancing - adding flexibility to the programming model for cloud-native, reactive and functional workloads. Over the course of 2 days, the community will share presentations and participate in open discussions about all things Spring. Don’t miss this opportunity to learn from and share with members of the Spring community.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://spring.io/team/mminella&quot;&gt;Michael Minella&lt;/a&gt;, Spring Team member speaking on Cloud Native Batch Processing
+This talk will explore the latest release of Spring Batch as well as how to utilize it in a modern cloud environment. We will work through building a cloud native batch process using Spring’s stack including Spring Batch, Spring Cloud Task, and other cloud tools as well as dive into what makes developing batch processes for the cloud both attractive as well as easy!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://spring.io/team/jlong&quot;&gt;Josh Long&lt;/a&gt;, Spring Team member, with &lt;a href=&quot;https://pivotal.io/advocates&quot;&gt;Mark Heckler&lt;/a&gt; presenting Reactive Spring
+Spring 5 is almost here! One of the most exciting introductions in this release is support for reactive programming, building on Pivotal&amp;#8217;s Project Reactor to support message-driven, elastic, resilient, and responsive services. Spring 5 integrates an MVC-like component model adapted to support reactive processing and a new type of web endpoint, functional reactive endpoints. In this talk, we&amp;#8217;ll look at the net-new Netty-based web runtime and how to integrate it with existing Spring-stack technologies.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.springdays.io/ehome/spring-days/registration&quot;&gt;Register Now&lt;/a&gt; for $200.00 USD; space is limited and will sell out.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We hope to catch you at one (or more) of these events!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Amrita C.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</description>
+    </item>
     <item>
       <title>Welcome to CJUG</title>
       <link>http://cjug.org/blog/2017/welcome.html</link>
