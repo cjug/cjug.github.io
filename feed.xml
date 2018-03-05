@@ -6,9 +6,81 @@
     <atom:link href="http://cjug.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Chicago Java User Group</description>
     <language>en-us</language>
-    <pubDate>Sat, 3 Jun 2017 14:42:15 +0000</pubDate>
-    <lastBuildDate>Sat, 3 Jun 2017 14:42:15 +0000</lastBuildDate>
+    <pubDate>Mon, 5 Mar 2018 23:01:00 +0000</pubDate>
+    <lastBuildDate>Mon, 5 Mar 2018 23:01:00 +0000</lastBuildDate>
 
+    <item>
+      <title>Newsletter November 2017</title>
+      <link>http://cjug.org/blog/2017/newsletter-nov.html</link>
+      <pubDate>Fri, 10 Nov 2017 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">blog/2017/newsletter-nov.html</guid>
+      	<description>
+	&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Yes folks, it&amp;#8217;s November already and with that we are wrapping up another year at CJUG! We have had talks from Kafka Streams, to Machine Learning, to Docker Tips and Tricks (&lt;a href=&quot;https://vimeo.com/channels/1109817/videos&quot; class=&quot;bare&quot;&gt;https://vimeo.com/channels/1109817/videos&lt;/a&gt;), and we will be ending it with Quantum Computing and Lightning talks! So come attend the last of our Meetups this year, as we slide into &lt;a href=&quot;http://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt3miACH3kxpXb8TgLtvZl9cNDVLrtlGHZ5fUx-2FeBx5dV4AHS4H-2Fm2jyudOUJIeG9sg-3D-3D_OGSh7qcBXBPPzK5pKXbBZfKU-2BGoI0CvMVdXN4tGAH5fGFW2hAz1y-2B19iGB0-2Bk-2BbCGsD0Co1hd69NcH-2Fos-2BnrfcxV9YF2nkHp6-2Fp-2FityEqWOA0jXDXBKSkgShNJOWvQ4IqNxQ-2BjtBNWBwinCj2EgEf0NS-2B4sX-2BdO-2FTeRND0dowasaOG4U-2BI-2F70XVHo8YF6y2wii31DipLbnkqvnQvPQbEJOIl7-2Bd5GfmY6IMlNgI6o9g-3D&quot;&gt;GoTo&amp;#8217;s holiday party&lt;/a&gt; event as well.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt3miACH3kxpXb8TgLtvZl9cNDVLrtlGHZ5fUx-2FeBx5dVIYDHtx1dA4-2FAnZht-2BfUvsw-3D-3D_OGSh7qcBXBPPzK5pKXbBZfKU-2BGoI0CvMVdXN4tGAH5fGFW2hAz1y-2B19iGB0-2Bk-2BbCGsD0Co1hd69NcH-2Fos-2BnrfZkgBlGis2c1tqZ36bzLRZfDNd2a729TH6vIEs3Dn6vLtORswmAm6xEXuonZ-2BaRvR-2FtVNyqb-2FU8PULq9CdYYl-2Farsk3Du6-2FxEDEpfeZ81-2BQmPm5GdFsR4fSB-2BbcEzzhRYCk6Fvatg4ufKzTJg4JdGhw-3D&quot;&gt;James Weaver Presents: Quantum Computing Exposed - The Fundamentals (Nov 28th)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Java has just released its first Quantum Compu&amp;#8230;&amp;#8203;oh wait, that&amp;#8217;s in the other alternate universe. Well, while we don&amp;#8217;t have Java frameworks for Quantum computing (I&amp;#8217;m sure they are going to come), Jim is going to talk about what it is, and why is so exciting. There is no experience necessary to attend this talk, just a cat&amp;#8217;s curiosity on wanting to learn (If you&amp;#8217;re schrodinger cat we&amp;#8217;re both sorry and not sorry at the same time). Sign up now!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt3miACH3kxpXb8TgLtvZl9cNDVLrtlGHZ5fUx-2FeBx5dVRwmHERUicZuBfgA5TZoGTw-3D-3D_OGSh7qcBXBPPzK5pKXbBZfKU-2BGoI0CvMVdXN4tGAH5fGFW2hAz1y-2B19iGB0-2Bk-2BbCGsD0Co1hd69NcH-2Fos-2BnrfYAnhjQDJ7W4dvQc5ul-2FkK1yYea0D8v-2BSVqFfYAGhGr6chWFM6dzQ6IvA4KYI37DpaZMgaEKB4axgKmY93t50Ih26-2FvWn-2FpqnsQPCZS1VhZ-2Frw-2B3-2ByV5F3qKP4yS6bleymegxvphvP6rNJsdbrdyHyc-3D&quot;&gt;Lightning Talks! (Dec 12)&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;As a end-cap for the year we host Lighning talks, where the presenter&amp;#8230;&amp;#8203;is you!&amp;#8230;&amp;#8203; That&amp;#8217;s right. If you ever thought about presenting (or if you just want to have some practice) then participate in our lighning talks. The format is 10 ~ 15 mins on a topic of your choice (can be anything), and then you show up and present! It&amp;#8217;s a safe environment for you to practice and help manage those presentation shivers (we can coach you too!). Here at CJUG we want to grow the next crop of presenters, so we are waiting for you!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;mailto:board@cjug.org&quot;&gt;Looking for Volunteers!&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The Chicago Java Users Group is run entirely by volunteers. It&amp;#8217;s the community that makes it possible to have these events and get awesome speakers and do cool events. If you have participated as a attendee in our CJUG you know we strive to bring you great content and a great experience. How about volunteering? We always need more help, and the more help we have, the better our events! Volunteer can be as little or as much time as you can give. There is no real restriction to hop in and help us organize events. Also, volunteering allows you to connect directly to our company network (and sponsors) expanding who you know, and to top it off it looks great in your resume! So with all these upsides, come and help us! Just reach out to a CJUG Board member (or the M.C.) on any of our events and we&amp;#8217;ll sign you up!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;mailto:board@cjug.org&quot;&gt;CJUG believes in Inclusion&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We always have, and we always will. Just now we just want it to make it more explicit. At our Meetups, if there’s someone you don’t know, please introduce yourself. Be curious, ask questions, avoid assumptions, and help us continue to grow this community into one of trust, empathy, and friendship. Also, if you have ideas or suggestions on how to be more inclusive (or any other ideas for that matter) send it to &lt;a href=&quot;mailto:board@cjug.org&quot;&gt;board@cjug.org&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Funny of the week&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;http://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt-2FtSP-2BEPjrlX4VsfFFSI-2BWuNxM7PmPVLjnP34KE0F56XAw0nceppgvpIgJoE7u9FwxQUgxCvF59FlGVXh-2BzeVCY-3D_OGSh7qcBXBPPzK5pKXbBZfKU-2BGoI0CvMVdXN4tGAH5fGFW2hAz1y-2B19iGB0-2Bk-2BbCGsD0Co1hd69NcH-2Fos-2BnrfQ5pMCblSk47laeAjaIkkveMfK7huUtqxvRRik225U89U3IMYSbkDGLuMFdlICuJc4ta9uNmO-2F3Kr-2FqP8Z17iSjvKdJjvS3ZaatfeC63Z9XU0CKU2BnAVgYkPjwcJUT2S0xxss963oXHBoLOTwTNGSQ-3D&quot;&gt;Coming from I Am Devloper&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;1969:&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;what&amp;#8217;re you doing with that 2KB of RAM?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;sending people to the moon&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;ulist&quot;&gt;
+&lt;div class=&quot;title&quot;&gt;2017:&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;what&amp;#8217;re you doing with that 1.5GB of RAM?&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;running Slack&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Thank you!&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Freddy Guime&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Official Cat Herder for CJUG&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+	</description>
+    </item>
     <item>
       <title>Newsletter April 2017</title>
       <link>http://cjug.org/blog/2017/newsletter-apr.html</link>

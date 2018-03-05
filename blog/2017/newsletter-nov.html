@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Newsletter November 2017</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="generator" content="JBake">
+
+    <!-- Le styles -->
+    <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/asciidoctor.css" rel="stylesheet">
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../../css/prettify.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+    <script src="../../js/jquery-1.11.1.min.js"></script>
+    <script id="meetup-template" type="text/x-handlebars-template">
+	  <div class="meetup">
+	  	<div class="panel-group" id="accordion">
+	    {{#each data}}
+	    <h2><a href="{{link}}">{{name}}</a></h2>
+	    <h5>
+	      {{formatDate time}}
+	      -
+	      {{#ifCond (math rsvp_limit '-' yes_rsvp_count) '>' 0}}
+	        {{math rsvp_limit '-' yes_rsvp_count}} Spots Left
+	      {{else}}
+	        Waitlist
+	      {{/ifCond}}
+	    </h5>
+	    <div class="panel panel-default">
+		    <div class="panel-heading">
+		      <h4 class="panel-title">
+			    <div data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">
+		          <a href="#" data-toggle="tooltip" data-placement="top" title="Expand">Abstract</a>
+		        </div>
+		      </h4>
+		    </div>
+		    <div id="collapse{{@index}}" class="panel-collapse collapse">
+		      	<div class="panel-body">
+			      {{{description}}}
+			    </div>
+			</div>
+		</div>
+		<br></br>
+	    {{/each}}
+	    </div>
+	  </div>
+	</script>
+	<script id="meetup-sponsors-template" type="text/x-handlebars-template">
+      <div class="meetup-sponsors" align="center">
+        {{#each sponsors}}
+        {{#if image_url}}
+        <a href="{{url}}"><img src="{{image_url}}"></a>
+        {{/if}}
+        <h4><a href="{{url}}">{{name}}</a></h4>
+        <div>{{info}}</div>
+		<hr/>
+        {{/each}}
+      </div>
+    </script>
+
+    <!-- Fav and touch icons -->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+    <link rel="shortcut icon" href="../../favicon.ico">
+  </head>
+  <body onload="prettyPrint()">
+    <div id="wrap">
+	
+	<!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="../../"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../../blog.html">Blog</a></li>
+            <li><a href="../../officers-and-board.html">Officers and Board</a></li>
+            <li><a href="../../adopt-a-jsr.html">Adopt-A-JSR</a></li>
+            <li><a href="../../about.html">About</a></li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sponsorship
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="../../sponsorship.html">Sponsorship Levels</a>
+                    </li>
+                    <li>
+                        <a href="../../sponsorship-tips.html">Sponsorship Tips</a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="../../feed.xml">Subscribe</a></li>
+            <!--<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>-->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container">	
+	<div class="page-header">
+		<h1>Newsletter November 2017</h1>
+	</div>
+
+	<p><em>November 10, 2017</em></p>
+
+	<p><div class="paragraph">
+<p>Yes folks, it&#8217;s November already and with that we are wrapping up another year at CJUG! We have had talks from Kafka Streams, to Machine Learning, to Docker Tips and Tricks (<a href="https://vimeo.com/channels/1109817/videos" class="bare">https://vimeo.com/channels/1109817/videos</a>), and we will be ending it with Quantum Computing and Lightning talks! So come attend the last of our Meetups this year, as we slide into <a href="http://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt3miACH3kxpXb8TgLtvZl9cNDVLrtlGHZ5fUx-2FeBx5dV4AHS4H-2Fm2jyudOUJIeG9sg-3D-3D_OGSh7qcBXBPPzK5pKXbBZfKU-2BGoI0CvMVdXN4tGAH5fGFW2hAz1y-2B19iGB0-2Bk-2BbCGsD0Co1hd69NcH-2Fos-2BnrfcxV9YF2nkHp6-2Fp-2FityEqWOA0jXDXBKSkgShNJOWvQ4IqNxQ-2BjtBNWBwinCj2EgEf0NS-2B4sX-2BdO-2FTeRND0dowasaOG4U-2BI-2F70XVHo8YF6y2wii31DipLbnkqvnQvPQbEJOIl7-2Bd5GfmY6IMlNgI6o9g-3D">GoTo&#8217;s holiday party</a> event as well.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt3miACH3kxpXb8TgLtvZl9cNDVLrtlGHZ5fUx-2FeBx5dVIYDHtx1dA4-2FAnZht-2BfUvsw-3D-3D_OGSh7qcBXBPPzK5pKXbBZfKU-2BGoI0CvMVdXN4tGAH5fGFW2hAz1y-2B19iGB0-2Bk-2BbCGsD0Co1hd69NcH-2Fos-2BnrfZkgBlGis2c1tqZ36bzLRZfDNd2a729TH6vIEs3Dn6vLtORswmAm6xEXuonZ-2BaRvR-2FtVNyqb-2FU8PULq9CdYYl-2Farsk3Du6-2FxEDEpfeZ81-2BQmPm5GdFsR4fSB-2BbcEzzhRYCk6Fvatg4ufKzTJg4JdGhw-3D">James Weaver Presents: Quantum Computing Exposed - The Fundamentals (Nov 28th)</a></p>
+</div>
+<div class="paragraph">
+<p>Java has just released its first Quantum Compu&#8230;&#8203;oh wait, that&#8217;s in the other alternate universe. Well, while we don&#8217;t have Java frameworks for Quantum computing (I&#8217;m sure they are going to come), Jim is going to talk about what it is, and why is so exciting. There is no experience necessary to attend this talk, just a cat&#8217;s curiosity on wanting to learn (If you&#8217;re schrodinger cat we&#8217;re both sorry and not sorry at the same time). Sign up now!</p>
+</div>
+<div class="paragraph">
+<p><a href="http://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt3miACH3kxpXb8TgLtvZl9cNDVLrtlGHZ5fUx-2FeBx5dVRwmHERUicZuBfgA5TZoGTw-3D-3D_OGSh7qcBXBPPzK5pKXbBZfKU-2BGoI0CvMVdXN4tGAH5fGFW2hAz1y-2B19iGB0-2Bk-2BbCGsD0Co1hd69NcH-2Fos-2BnrfYAnhjQDJ7W4dvQc5ul-2FkK1yYea0D8v-2BSVqFfYAGhGr6chWFM6dzQ6IvA4KYI37DpaZMgaEKB4axgKmY93t50Ih26-2FvWn-2FpqnsQPCZS1VhZ-2Frw-2B3-2ByV5F3qKP4yS6bleymegxvphvP6rNJsdbrdyHyc-3D">Lightning Talks! (Dec 12)</a></p>
+</div>
+<div class="paragraph">
+<p>As a end-cap for the year we host Lighning talks, where the presenter&#8230;&#8203;is you!&#8230;&#8203; That&#8217;s right. If you ever thought about presenting (or if you just want to have some practice) then participate in our lighning talks. The format is 10 ~ 15 mins on a topic of your choice (can be anything), and then you show up and present! It&#8217;s a safe environment for you to practice and help manage those presentation shivers (we can coach you too!). Here at CJUG we want to grow the next crop of presenters, so we are waiting for you!</p>
+</div>
+<div class="paragraph">
+<p><a href="mailto:board@cjug.org">Looking for Volunteers!</a></p>
+</div>
+<div class="paragraph">
+<p>The Chicago Java Users Group is run entirely by volunteers. It&#8217;s the community that makes it possible to have these events and get awesome speakers and do cool events. If you have participated as a attendee in our CJUG you know we strive to bring you great content and a great experience. How about volunteering? We always need more help, and the more help we have, the better our events! Volunteer can be as little or as much time as you can give. There is no real restriction to hop in and help us organize events. Also, volunteering allows you to connect directly to our company network (and sponsors) expanding who you know, and to top it off it looks great in your resume! So with all these upsides, come and help us! Just reach out to a CJUG Board member (or the M.C.) on any of our events and we&#8217;ll sign you up!</p>
+</div>
+<div class="paragraph">
+<p><a href="mailto:board@cjug.org">CJUG believes in Inclusion</a></p>
+</div>
+<div class="paragraph">
+<p>We always have, and we always will. Just now we just want it to make it more explicit. At our Meetups, if there’s someone you don’t know, please introduce yourself. Be curious, ask questions, avoid assumptions, and help us continue to grow this community into one of trust, empathy, and friendship. Also, if you have ideas or suggestions on how to be more inclusive (or any other ideas for that matter) send it to <a href="mailto:board@cjug.org">board@cjug.org</a></p>
+</div>
+<div class="paragraph">
+<p>Funny of the week</p>
+</div>
+<div class="paragraph">
+<p><a href="http://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt-2FtSP-2BEPjrlX4VsfFFSI-2BWuNxM7PmPVLjnP34KE0F56XAw0nceppgvpIgJoE7u9FwxQUgxCvF59FlGVXh-2BzeVCY-3D_OGSh7qcBXBPPzK5pKXbBZfKU-2BGoI0CvMVdXN4tGAH5fGFW2hAz1y-2B19iGB0-2Bk-2BbCGsD0Co1hd69NcH-2Fos-2BnrfQ5pMCblSk47laeAjaIkkveMfK7huUtqxvRRik225U89U3IMYSbkDGLuMFdlICuJc4ta9uNmO-2F3Kr-2FqP8Z17iSjvKdJjvS3ZaatfeC63Z9XU0CKU2BnAVgYkPjwcJUT2S0xxss963oXHBoLOTwTNGSQ-3D">Coming from I Am Devloper</a></p>
+</div>
+<div class="ulist">
+<div class="title">1969:</div>
+<ul>
+<li>
+<p>what&#8217;re you doing with that 2KB of RAM?</p>
+</li>
+<li>
+<p>sending people to the moon</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">2017:</div>
+<ul>
+<li>
+<p>what&#8217;re you doing with that 1.5GB of RAM?</p>
+</li>
+<li>
+<p>running Slack</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p><strong><em>Thank you!</em></strong></p>
+</div>
+<div class="paragraph">
+<p><strong><em>Freddy Guime</em></strong></p>
+</div>
+<div class="paragraph">
+<p><strong><em>Official Cat Herder for CJUG</em></strong></p>
+</div></p>
+
+	<hr />
+	
+		</div>
+		<div id="push"></div>
+    </div>
+    
+    <div id="footer">
+      <div class="container">
+        <p class="muted credit">&copy; 2017 Chicago Java User Group</p>
+      </div>
+    </div>
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/prettify.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+    <script src="../../js/cjug.js"></script>
+  </body>
+</html>
