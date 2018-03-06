@@ -25,7 +25,7 @@
 
     <script id="meetup-template" type="text/x-handlebars-template">
 	  <div class="meetup">
-	  	<div class="panel-group" id="accordion">
+	  	<div id="accordion">
 	    {{#each data}}
 	    <h2><a href="{{link}}">{{name}}</a></h2>
 	    <h5>
@@ -37,16 +37,16 @@
 	        Waitlist
 	      {{/ifCond}}
 	    </h5>
-	    <div class="panel panel-default">
-		    <div class="panel-heading">
-		      <h4 class="panel-title">
-			    <div data-toggle="collapse" data-parent="#accordion" href="#collapse{{@index}}">
-		          <a href="#" data-toggle="tooltip" data-placement="top" title="Expand">Abstract</a>
-		        </div>
+	    <div class="card">
+		    <div class="card-header" id="heading{{@index}}">
+		      <h4 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapse{{@index}}" aria-expanded="true" aria-controls="collapse{{@index}}">
+                      Abstract
+                  </button>
 		      </h4>
 		    </div>
-		    <div id="collapse{{@index}}" class="panel-collapse collapse">
-		      	<div class="panel-body">
+		    <div id="collapse{{@index}}" class="collapse" aria-labelledby="heading{{@index}}" data-parent="#accordian">
+		      	<div class="card-body">
 			      {{{description}}}
 			    </div>
 			</div>
