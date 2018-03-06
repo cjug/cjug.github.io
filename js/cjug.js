@@ -43,7 +43,7 @@ var getFormattedTime = function( millis ) {
 };
 
 Handlebars.registerHelper("formatDate", function(datetime) {
-	
+
 	return getFormattedDate(datetime) + " | " + getFormattedTime(datetime);
 });
 
