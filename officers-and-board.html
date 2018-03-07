@@ -30,15 +30,19 @@
 	    <h2><a href="{{link}}">{{name}}</a></h2>
 	    <h5>
 	      {{formatDate time}}
-            {{#ifCond rsvp_limit '<' 10}}
+            {{#if rsvp_limit}}
+                {{#ifCond rsvp_limit '<' 10}}
 
-            {{else}}
-                {{#ifCond (math rsvp_limit '-' yes_rsvp_count) '>' 0}}
-                    - {{math rsvp_limit '-' yes_rsvp_count}} Spots Left
                 {{else}}
-                    - Waitlist
+                    {{#ifCond (math rsvp_limit '-' yes_rsvp_count) '>' 0}}
+                        - {{math rsvp_limit '-' yes_rsvp_count}} Spots Left
+                    {{else}}
+                        - Waitlist
+                    {{/ifCond}}
                 {{/ifCond}}
-            {{/ifCond}}
+            {{else}}
+                - {{yes_rsvp_count}} Attending
+            {{/if}}
 
 	    </h5>
 	    <div class="card">
@@ -131,7 +135,7 @@
                     <img src="images/cjug_small.jpeg" onload="this.onload=null; this.src=gravatar('freddy.guime@cjug.org', '150');" style="display: block;margin-left: auto;margin-right:auto"/>
                     <br/>
                     <div style="text-align:center">
-                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="Freddy is a Senior Developer at Expedia. Always dealing with performance and usability he is always curious on how to make the overabundance of data useful for travelers, traders and consumers. Having worked with different technologies before has allowed him to come with solutions to rendering bottleneck problems. A Usability Guru, Freddy understands and bridges the concepts of high-throughput with usability within software.
+                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-html=true data-trigger="focus" data-placement="bottom" data-content="Freddy is a Senior Developer at Expedia. Always dealing with performance and usability he is always curious on how to make the overabundance of data useful for travelers, traders and consumers. Having worked with different technologies before has allowed him to come with solutions to rendering bottleneck problems. A Usability Guru, Freddy understands and bridges the concepts of high-throughput with usability within software.
                             <br/><br/>
                             He is also the author and maintainer of the javapubhouse.com, a podcast dedicated to tutorial topics in Java that covers everything from the use of the keyword volatile to the definition of beautiful code, also of javaoffheap.com, a java news podcast">Freddy Guime</a>
                     </div>
@@ -144,7 +148,7 @@
                     <img src="images/cjug_small.jpeg" onload="this.onload=null; this.src=gravatar('todd.ginsberg@cjug.org', '150');" style="display: block;margin-left: auto;margin-right:auto"/>
                     <br/>
                     <div style="text-align:center">
-                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="Todd Ginsberg is a Principal Software Developer at Netspend, a payments company in Austin, TX where he is responsible for prototypes, experiments, and proofs of concept. Todd has been writing in Java since 1995, Kotlin since 2016, and is an executive board member of the Chicago Java Users Group. Todd lives in Chicago with his wife, daughter, and two dogs. When not programming, he enjoys reading, walking/hiking, doughnuts, and Formula 1.">Todd Ginsberg</a>
+                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-html=true data-trigger="focus" data-placement="bottom" data-content="Todd Ginsberg is a Principal Software Developer at Netspend, a payments company in Austin, TX where he is responsible for prototypes, experiments, and proofs of concept. Todd has been writing in Java since 1995, Kotlin since 2016, and is an executive board member of the Chicago Java Users Group. Todd lives in Chicago with his wife, daughter, and two dogs. When not programming, he enjoys reading, walking/hiking, doughnuts, and Formula 1.">Todd Ginsberg</a>
                     </div>
                 </div>
             </div>
@@ -155,7 +159,7 @@
                     <img src="images/cjug_small.jpeg" onload="this.onload=null; this.src=gravatar('amrita.chavan@cjug.org', '150');" style="display: block;margin-left: auto;margin-right:auto"/>
                     <br/>
                     <div style="text-align:center">
-                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="">Amrita Chavan</a>
+                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-html=true data-trigger="focus" data-placement="bottom" data-content="">Amrita Chavan</a>
                     </div>
                 </div>
             </div>
@@ -168,7 +172,7 @@
                     <img src="images/cjug_small.jpeg" onload="this.onload=null; this.src=gravatar('janine.patterson@cjug.org', '150');" style="display: block;margin-left: auto;margin-right:auto"/>
                     <br/>
                     <div style="text-align:center">
-                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="Janine started with Core Java in the financial field, with a main focus on high performance, low garbage collection, and binary data interchange formats like Fix/Fast. Since then she’s moved on to microservices architecture and cloud platforms. She runs the Office Hours sessions, similar to coffee and code. She has also taught sessions at Hak4Kidz, and GOTO Junior. She recently broke into the speaker circuit with talks at JavaOne and DevNexus.">Janine Patterson</a>
+                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-html=true data-trigger="focus" data-placement="bottom" data-content="Janine started with Core Java in the financial field, with a main focus on high performance, low garbage collection, and binary data interchange formats like Fix/Fast. Since then she’s moved on to microservices architecture and cloud platforms.<br/><br/>She runs the Office Hours sessions, similar to coffee and code. She has also taught sessions at Hak4Kidz, and GOTO Junior. She recently broke into the speaker circuit with talks at JavaOne and DevNexus.">Janine Patterson</a>
                     </div>
                 </div>
             </div>
@@ -179,7 +183,7 @@
                     <img src="images/cjug_small.jpeg" onload="this.onload=null; this.src=gravatar('jonathan.ross@cjug.org', '150');" style="display: block;margin-left: auto;margin-right:auto"/>
                     <br/>
                     <div style="text-align:center">
-                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="">Jonathan Ross</a>
+                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-html=true data-trigger="focus" data-placement="bottom" data-content="<p>Jonathan Ross is a senior Java/C++ developer and financial engineer atIMC Financial Markets (a proprietary trading firm based in Amsterdam,with offices in New York, Chicago, and Sydney.)  Having programmed Java since 1997, he knows a think or two about Java and the Java VirtualMachine.</p><p>Core Java is his thing; concurrency, optimizing code and JVM tuning his passion; he has a soft-spot for good type systems and functional programming.  A JCP member, he recently started tinkering in theOpenJDK source code and speaking at major Java conferences.  He is currently seriously considering Kotlin as his next production language.</p><p>Outside work, when not learning a new programming language, Jonathan makes as much music as he can.  He plays drums in a local Alt-Rock duo,and has been known to Jam with the CJUG president as a member of the NullPointers, the one-and-only Java Community Band.</p>">Jonathan Ross</a>
                     </div>
                 </div>
             </div>
@@ -192,7 +196,7 @@
                     <img src="images/cjug_small.jpeg" onload="this.onload=null; this.src=gravatar('mary.grygleski@cjug.org', '150');" style="display: block;margin-left: auto;margin-right:auto"/>
                     <br/>
                     <div style="text-align:center">
-                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="Mary is a passionate software engineer riding the tech wave since the early 90's, starting with Unix/C, then Java and Open source, and now the web and mobile. She is a very active member of the software community.">Mary Grygleski</a>
+                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-html=true data-trigger="focus" data-placement="bottom" data-content="Mary is a passionate software engineer riding the tech wave since the early 90's, starting with Unix/C, then Java and Open source, and now the web and mobile. She is a very active member of the software community.">Mary Grygleski</a>
                     </div>
                 </div>
             </div>
@@ -203,7 +207,7 @@
                     <img src="images/cjug_small.jpeg" onload="this.onload=null; this.src=gravatar('michael.minella@cjug.org', '150');" style="display: block;margin-left: auto;margin-right:auto"/>
                     <br/>
                     <div style="text-align:center">
-                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="">Michael Minella</a>
+                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-html=true data-trigger="focus" data-placement="bottom" data-content="">Michael Minella</a>
                     </div>
                 </div>
             </div>
@@ -216,7 +220,7 @@
                     <img src="images/cjug_small.jpeg" onload="this.onload=null; this.src=gravatar('bob.paulin@cjug.org', '150');" style="display: block;margin-left: auto;margin-right:auto"/>
                     <br/>
                     <div style="text-align:center">
-                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="Bob Paulin is an independent consultant and speaker that has been developing open source software for the past 10 years. Bob has presented at large international conferences such as ApacheCon, JavaOne and Devnexus. He frequently shares his knowledge and opinions on the Java Pub House and Jave Off Heap podcasts. Bob is actively involved in the Chicago developer community as the Chicago Java User Group CFO and Chicago GOTO Jr presenter/organizer. Bob is a passionate member of the ASF and donates his time to Apache Felix and Apache Tika as a committer and PMC respectively. When not coding, Bob enjoys coaching football, robotics, and spending time with his wife and 4 kids.">Bob Paulin</a>
+                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-html=true data-trigger="focus" data-placement="bottom" data-content="Bob Paulin is an independent consultant and speaker that has been developing open source software for the past 10 years. Bob has presented at large international conferences such as ApacheCon, JavaOne and Devnexus. He frequently shares his knowledge and opinions on the Java Pub House and Jave Off Heap podcasts. Bob is actively involved in the Chicago developer community as the Chicago Java User Group CFO and Chicago GOTO Jr presenter/organizer. Bob is a passionate member of the ASF and donates his time to Apache Felix and Apache Tika as a committer and PMC respectively. When not coding, Bob enjoys coaching football, robotics, and spending time with his wife and 3 kids.">Bob Paulin</a>
                     </div>
                 </div>
             </div>
@@ -227,7 +231,7 @@
                     <img src="images/cjug_small.jpeg" onload="this.onload=null; this.src=gravatar('cedric.hurst@cjug.org', '150');" style="display: block;margin-left: auto;margin-right:auto"/>
                     <br/>
                     <div style="text-align:center">
-                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-trigger="focus" data-placement="bottom" data-content="">Cedric Hurst</a>
+                        <a tabindex="0" class="btn btn-lg btn-primary" role="button" data-toggle="popover" data-html=true data-trigger="focus" data-placement="bottom" data-content="">Cedric Hurst</a>
                     </div>
                 </div>
             </div>
@@ -237,7 +241,6 @@
 
 
 </div>
-
 </p>
 
 	<hr />

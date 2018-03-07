@@ -30,15 +30,19 @@
 	    <h2><a href="{{link}}">{{name}}</a></h2>
 	    <h5>
 	      {{formatDate time}}
-            {{#ifCond rsvp_limit '<' 10}}
+            {{#if rsvp_limit}}
+                {{#ifCond rsvp_limit '<' 10}}
 
-            {{else}}
-                {{#ifCond (math rsvp_limit '-' yes_rsvp_count) '>' 0}}
-                    - {{math rsvp_limit '-' yes_rsvp_count}} Spots Left
                 {{else}}
-                    - Waitlist
+                    {{#ifCond (math rsvp_limit '-' yes_rsvp_count) '>' 0}}
+                        - {{math rsvp_limit '-' yes_rsvp_count}} Spots Left
+                    {{else}}
+                        - Waitlist
+                    {{/ifCond}}
                 {{/ifCond}}
-            {{/ifCond}}
+            {{else}}
+                - {{yes_rsvp_count}} Attending
+            {{/if}}
 
 	    </h5>
 	    <div class="card">
