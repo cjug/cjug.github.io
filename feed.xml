@@ -6,9 +6,62 @@
     <atom:link href="http://cjug.org/feed.xml" rel="self" type="application/rss+xml" />
     <description>Chicago Java User Group</description>
     <language>en-us</language>
-    <pubDate>Thu, 26 Apr 2018 05:36:23 +0000</pubDate>
-    <lastBuildDate>Thu, 26 Apr 2018 05:36:23 +0000</lastBuildDate>
+    <pubDate>Fri, 4 May 2018 00:11:41 +0000</pubDate>
+    <lastBuildDate>Fri, 4 May 2018 00:11:41 +0000</lastBuildDate>
 
+    <item>
+      <title>Newsletter May 2018</title>
+      <link>http://cjug.org/blog/2018/newsletter-may.html</link>
+      <pubDate>Thu, 3 May 2018 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">blog/2018/newsletter-may.html</guid>
+      	<description>
+	&lt;div id=&quot;preamble&quot;&gt;
+&lt;div class=&quot;sectionbody&quot;&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Hello again!  May is already upon us and the weather has finally decided to catch up!  The snow was fun while it lasted, but these warm summer days couldn’t come soon enough.  CJUG is ready to hit the ground running this summer with some very exciting new events.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_kids_are_the_future&quot;&gt;Kids Are The Future!&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;June 9th - CJUG is proud to announce our first CJUG4Kids event!  Want to get your kids excited about programming? We have a workshop that combines &lt;a href=&quot;https://www.eventbrite.com/e/cjug4kids-lets-mod-minecraft-tickets-45542955205&quot;&gt;Java and Minecraft&lt;/a&gt; with some cool modding code.  (Snowballs that contain arrows WAAAAA???)  We’re planning on holding a few more workshops this summer so keep watching.  If you’re interested in getting involved, send an email to &lt;a href=&quot;mailto:cjug4kids@cjug.org&quot;&gt;cjug4kids@cjug.org&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;June 2nd - Partner Event - We are also excited to share with you another kid focused event with Hak4Kidz.  &lt;a href=&quot;http://www.hak4kidz.com/&quot;&gt;Hak4Kidz&lt;/a&gt; is an event of ethical hackers and Information Security professionals dedicated to bring the educational and communal benefits of white hat hacking conferences to children and young adults. We accomplish this mission by putting our collective expertise and passion on display for the attendees to interact with us at their will. A combination of activity stations and detailed workshops will enable the attendees to expand and enlighten their technical interests. For innovation to perpetuate, it’s imperative that today’s young users are exposed to the bigger picture of how we got here and to help realize their potential.  Check out registration &lt;a href=&quot;http://www.hak4kidz.com/eventchi.html&quot;&gt;Here&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_upcoming_events&quot;&gt;Upcoming Events&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We’re deeply committed to supporting and enhancing the OSS community.  CJUG’s own Bob and Josh will lead a discussion on how you can &lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/249969567/&quot;&gt;participate and give back to the OSS community&lt;/a&gt; on May 10th.  From the Dark Web to the Panama Papers, you’d be surprised at how OSS contribution has impacted some of the most compelling recent scandals.  (This will be a virtual event)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;The next monthly &lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/249371100/&quot;&gt;Office Hours&lt;/a&gt; is scheduled for May 16th with a group project on Logging, led by Lamar Smith.  If you’d like to request a topic for the next office hours, or want to volunteer to be an office hours aide, contact &lt;a href=&quot;mailto:todd.ginsberg@cjug.org&quot;&gt;Todd&lt;/a&gt; or &lt;a href=&quot;mailto:janine.patterson@cjug.org&quot;&gt;Janine&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;David Blevins will be presenting &lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/249969823/&quot;&gt;Deconstructing and Evolving REST Security&lt;/a&gt; on May 21st.  Security for REST endpoints… you mean I’m not supposed to throw all of my apis on the open web and expose everything?  Ugh&amp;#8230;&amp;#8203;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_lightning_talks&quot;&gt;Lightning Talks&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;Time to get involved!  As mentioned in the last newsletters, Lightning Talks are coming up soon.  (Targeting early June) We’re looking for you to submit a 5-10 minute talk on the topic of your choosing.  This is a great chance to flex those speaking skills in front of our very supportive crowd. If you want to present email us at &lt;a href=&quot;mailto:present@cjug.org&quot;&gt;present@cjug.org&lt;/a&gt;.  If you’re not sure where to get started or have any questions feel free to email us at that address as well.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;sect2&quot;&gt;
+&lt;h3 id=&quot;_a_special_thanks&quot;&gt;A Special Thanks&lt;/h3&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;We’d like to make a special shoutout to our sponsor &lt;a href=&quot;https://www.expedia.com/&quot;&gt;Expedia&lt;/a&gt; for their amazing donation of laptops that will help with our future workshops.  We cannot do what we do without our awesome sponsors. The donation of these laptops will allow us to do much more with our community and kids outreach programs.  Thanks so much!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&quot;paragraph&quot;&gt;
+&lt;p&gt;&lt;strong&gt;~ Janine Patterson ~&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;Community Leader&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&quot;mailto:janine.patterson@cjug.org&quot;&gt;janine.patterson@cjug.org&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+	</description>
+    </item>
     <item>
       <title>Newsletter April 2018</title>
       <link>http://cjug.org/blog/2018/newsletter-apr.html</link>
@@ -48,16 +101,16 @@ Community Leader - Janine ‘It Works on My Box’ Patterson&lt;/p&gt;
 &lt;div class=&quot;sect2&quot;&gt;
 &lt;h3 id=&quot;_summer_of_fun&quot;&gt;Summer of Fun!&lt;/h3&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;We have some great speakers lined up for the summer.  Check out &lt;a href=&quot;https://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt3miACH3kxpXb8TgLtvZl9cNDVLrtlGHZ5fUx-2FeBx5dVwjip-2BjZ4VPJA8dHaQmQ1bA-3D-3D_OGSh7qcBXBPPzK5pKXbBZVbbZPwgY0-2Bo1ELc-2Bxqa-2BlvPCm2fp9aO-2FLcGqOGoqjJLrsgaf0OOQw-2F6xemGQ4hjiBT0AQItCz169LNcgt6r3mq2lLhdXb7iDeJ-2FKiwm9zJ1nQ6NqJX8PJRweCh-2F3-2F5mCbp3bDVUxjdqwfs1uuyUNfYkMxf61KNhwnrZTyxKAFZYUmWXSmdnHIfVACDjW1KAfw1AN847zalS1eBgPBBbCm0-3D&quot;&gt;Bruno Souza Presents: 3 steps for an amazing Java career&lt;/a&gt; on April 9th.  Bruno is stopping in Chicago as part of his JUG Tour around the US.  He’ll be giving some sage and fun advice on how to build your awesome career!&lt;/p&gt;
+&lt;p&gt;We have some great speakers lined up for the summer.  Check out &lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/249019748/&quot;&gt;Bruno Souza Presents: 3 steps for an amazing Java career&lt;/a&gt; on April 9th.  Bruno is stopping in Chicago as part of his JUG Tour around the US.  He’ll be giving some sage and fun advice on how to build your awesome career!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The next monthly &lt;a href=&quot;https://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt3miACH3kxpXb8TgLtvZl9cNDVLrtlGHZ5fUx-2FeBx5dVAmjDamhgSZ5hEykE9SzRGQ-3D-3D_OGSh7qcBXBPPzK5pKXbBZVbbZPwgY0-2Bo1ELc-2Bxqa-2BlvPCm2fp9aO-2FLcGqOGoqjJLrsgaf0OOQw-2F6xemGQ4hjiOHVhIKKXgLmliDT0b6s5Z1MgeqUq4Rz3NByz-2F-2For-2BMlisMRV76CRyMH2-2BqmtRzhia37kOsc55b1S-2FJQOf0QhK4e27wyntJhlQaapLwlgkXo9iXU-2FJuE5Ejg8a3Tci5LkmV-2FXoKZ9HxqzWjceyPFuC8-3D&quot;&gt;Office Hours&lt;/a&gt; is scheduled for April 17th.  If you’d like to request a topic for the next office hours, or want to volunteer to be an office hours aide, contact &lt;a href=&quot;mailto:todd.ginsberg@cjug.org&quot;&gt;Todd&lt;/a&gt; or &lt;a href=&quot;mailto:janine.patterson@cjug.org&quot;&gt;Janine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The next monthly &lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/249371100/&quot;&gt;Office Hours&lt;/a&gt; is scheduled for April 17th.  If you’d like to request a topic for the next office hours, or want to volunteer to be an office hours aide, contact &lt;a href=&quot;mailto:todd.ginsberg@cjug.org&quot;&gt;Todd&lt;/a&gt; or &lt;a href=&quot;mailto:janine.patterson@cjug.org&quot;&gt;Janine&lt;/a&gt;.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Mark your calendar for April 19th.  Thomas Nield will present Data Science with Kotlin.  Kotlin is hitting the prime time as a JVM language for Big Data, and Thomas will show us how.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;a href=&quot;https://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt46osmEo83Q98LZcdaoX80U-3D_OGSh7qcBXBPPzK5pKXbBZVbbZPwgY0-2Bo1ELc-2Bxqa-2BlvPCm2fp9aO-2FLcGqOGoqjJLrsgaf0OOQw-2F6xemGQ4hjiDMCCrZ8Ornar9og6DPc7Vh03mSjqSySta7D4m8-2FmWNHLeCu-2F96BEOcNNHEQLrqrvB12yNwK9FbWjPLoC72fAIR5IgwxSvrnCzQ-2FMkFnIutNRJ5Exq1KqhlF9NBNWgIKQI2U88DHk7r-2FFlzfjaeIEc8-3D&quot;&gt;GOTO Chicago&lt;/a&gt; is coming up soon.  Talks are on April 25th and 26th.  Workshops on April 24th and 27th. Registration is still open.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gotochgo.com/&quot;&gt;GOTO Chicago&lt;/a&gt; is coming up soon.  Talks are on April 25th and 26th.  Workshops on April 24th and 27th. Registration is still open.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Keep an eye on the calendar.  CJUG has two speakers scheduled for every month this summer.  Announcements will be made in a timely fashion before each speaker’s talk.&lt;/p&gt;
@@ -92,16 +145,16 @@ Community Leader - Janine ‘It Works on My Box’ Patterson&lt;/p&gt;
       <guid isPermaLink="false">blog/2017/newsletter-nov.html</guid>
       	<description>
 	&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Yes folks, it&amp;#8217;s November already and with that we are wrapping up another year at CJUG! We have had talks from Kafka Streams, to Machine Learning, to Docker Tips and Tricks (&lt;a href=&quot;https://vimeo.com/channels/1109817/videos&quot; class=&quot;bare&quot;&gt;https://vimeo.com/channels/1109817/videos&lt;/a&gt;), and we will be ending it with Quantum Computing and Lightning talks! So come attend the last of our Meetups this year, as we slide into &lt;a href=&quot;http://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt3miACH3kxpXb8TgLtvZl9cNDVLrtlGHZ5fUx-2FeBx5dV4AHS4H-2Fm2jyudOUJIeG9sg-3D-3D_OGSh7qcBXBPPzK5pKXbBZfKU-2BGoI0CvMVdXN4tGAH5fGFW2hAz1y-2B19iGB0-2Bk-2BbCGsD0Co1hd69NcH-2Fos-2BnrfcxV9YF2nkHp6-2Fp-2FityEqWOA0jXDXBKSkgShNJOWvQ4IqNxQ-2BjtBNWBwinCj2EgEf0NS-2B4sX-2BdO-2FTeRND0dowasaOG4U-2BI-2F70XVHo8YF6y2wii31DipLbnkqvnQvPQbEJOIl7-2Bd5GfmY6IMlNgI6o9g-3D&quot;&gt;GoTo&amp;#8217;s holiday party&lt;/a&gt; event as well.&lt;/p&gt;
+&lt;p&gt;Yes folks, it&amp;#8217;s November already and with that we are wrapping up another year at CJUG! We have had talks from Kafka Streams, to Machine Learning, to Docker Tips and Tricks (&lt;a href=&quot;https://vimeo.com/channels/1109817/videos&quot; class=&quot;bare&quot;&gt;https://vimeo.com/channels/1109817/videos&lt;/a&gt;), and we will be ending it with Quantum Computing and Lightning talks! So come attend the last of our Meetups this year, as we slide into &lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/244971602/&quot;&gt;GoTo&amp;#8217;s holiday party&lt;/a&gt; event as well.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;a href=&quot;http://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt3miACH3kxpXb8TgLtvZl9cNDVLrtlGHZ5fUx-2FeBx5dVIYDHtx1dA4-2FAnZht-2BfUvsw-3D-3D_OGSh7qcBXBPPzK5pKXbBZfKU-2BGoI0CvMVdXN4tGAH5fGFW2hAz1y-2B19iGB0-2Bk-2BbCGsD0Co1hd69NcH-2Fos-2BnrfZkgBlGis2c1tqZ36bzLRZfDNd2a729TH6vIEs3Dn6vLtORswmAm6xEXuonZ-2BaRvR-2FtVNyqb-2FU8PULq9CdYYl-2Farsk3Du6-2FxEDEpfeZ81-2BQmPm5GdFsR4fSB-2BbcEzzhRYCk6Fvatg4ufKzTJg4JdGhw-3D&quot;&gt;James Weaver Presents: Quantum Computing Exposed - The Fundamentals (Nov 28th)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/243371249/&quot;&gt;James Weaver Presents: Quantum Computing Exposed - The Fundamentals (Nov 28th)&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;Java has just released its first Quantum Compu&amp;#8230;&amp;#8203;oh wait, that&amp;#8217;s in the other alternate universe. Well, while we don&amp;#8217;t have Java frameworks for Quantum computing (I&amp;#8217;m sure they are going to come), Jim is going to talk about what it is, and why is so exciting. There is no experience necessary to attend this talk, just a cat&amp;#8217;s curiosity on wanting to learn (If you&amp;#8217;re schrodinger cat we&amp;#8217;re both sorry and not sorry at the same time). Sign up now!&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;a href=&quot;http://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt3miACH3kxpXb8TgLtvZl9cNDVLrtlGHZ5fUx-2FeBx5dVRwmHERUicZuBfgA5TZoGTw-3D-3D_OGSh7qcBXBPPzK5pKXbBZfKU-2BGoI0CvMVdXN4tGAH5fGFW2hAz1y-2B19iGB0-2Bk-2BbCGsD0Co1hd69NcH-2Fos-2BnrfYAnhjQDJ7W4dvQc5ul-2FkK1yYea0D8v-2BSVqFfYAGhGr6chWFM6dzQ6IvA4KYI37DpaZMgaEKB4axgKmY93t50Ih26-2FvWn-2FpqnsQPCZS1VhZ-2Frw-2B3-2ByV5F3qKP4yS6bleymegxvphvP6rNJsdbrdyHyc-3D&quot;&gt;Lightning Talks! (Dec 12)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.meetup.com/ChicagoJUG/events/244856134/&quot;&gt;Lightning Talks! (Dec 12)&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
 &lt;p&gt;As a end-cap for the year we host Lighning talks, where the presenter&amp;#8230;&amp;#8203;is you!&amp;#8230;&amp;#8203; That&amp;#8217;s right. If you ever thought about presenting (or if you just want to have some practice) then participate in our lighning talks. The format is 10 ~ 15 mins on a topic of your choice (can be anything), and then you show up and present! It&amp;#8217;s a safe environment for you to practice and help manage those presentation shivers (we can coach you too!). Here at CJUG we want to grow the next crop of presenters, so we are waiting for you!&lt;/p&gt;
@@ -122,7 +175,7 @@ Community Leader - Janine ‘It Works on My Box’ Patterson&lt;/p&gt;
 &lt;p&gt;Funny of the week&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;a href=&quot;http://meet.meetup.com/wf/click?upn=pEEcc35imY7Cq0tG1vyTt-2FtSP-2BEPjrlX4VsfFFSI-2BWuNxM7PmPVLjnP34KE0F56XAw0nceppgvpIgJoE7u9FwxQUgxCvF59FlGVXh-2BzeVCY-3D_OGSh7qcBXBPPzK5pKXbBZfKU-2BGoI0CvMVdXN4tGAH5fGFW2hAz1y-2B19iGB0-2Bk-2BbCGsD0Co1hd69NcH-2Fos-2BnrfQ5pMCblSk47laeAjaIkkveMfK7huUtqxvRRik225U89U3IMYSbkDGLuMFdlICuJc4ta9uNmO-2F3Kr-2FqP8Z17iSjvKdJjvS3ZaatfeC63Z9XU0CKU2BnAVgYkPjwcJUT2S0xxss963oXHBoLOTwTNGSQ-3D&quot;&gt;Coming from I Am Devloper&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/iamdevloper/status/926458505355235328&quot;&gt;Coming from I Am Devloper&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&quot;ulist&quot;&gt;
 &lt;div class=&quot;title&quot;&gt;1969:&lt;/div&gt;
