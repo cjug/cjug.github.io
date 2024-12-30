@@ -1,3 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome on CJUG</title><link>https://cjug.org/</link><description>Recent content in Welcome on CJUG</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://cjug.org/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://cjug.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cjug.org/about/</guid><description>About CJUG The Chicago Java User’s Group is here to help the Java Professional. We want to make Chicago the ‘best’ place to be a Java developer, by offering a support network that allows each individual Java developer to grow! Its only purpose it to serve its community by focusing in three areas:
-Learning about the Java Craft Java is a very expansive language, with new innovations coming out the door every other day, and more refined techniques being contributed by the community non-stop.</description></item><item><title>Events</title><link>https://cjug.org/events/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cjug.org/events/</guid><description>OSS The CJUG became involved in the Adopt-a-JSR program in 2014, when we officially adopted JSR 366, the Java Platform, Enterprise Edition 8 Umbrella specification. The Adopt-a-JSR program is led by the Java Community Process (JCP), with a goal of getting JUGs more involved with the Java specifications process. During our tenure as Adopt-a-JSR participants, we have held a number of sessions in person and online, in an effort to help foster each of the different JSRs that came together to comprise Java EE 8 and Java SE 9.</description></item><item><title>People</title><link>https://cjug.org/people/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cjug.org/people/</guid><description>Officers, Board, and Staff Officers &amp;amp; Board President - Mary Grygleski Mary is a passionate Developer Evangelist and Software Engineer who has been riding the tech wave since the early 90&amp;rsquo;s, starting with Unix/C, then Java and Open source, Cloud, and now with GenAI. She is a very active member of the software community.
-Chairman of the Board - Bob Paulin Bob Paulin is an independent consultant and speaker that has been developing open source software for the past 10 years.</description></item><item><title>Sponsors</title><link>https://cjug.org/sponsors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cjug.org/sponsors/</guid><description>Past Sponsors GOLD (2021, 2022) - SILVER (2023) SILVER (2023) Be a Sponsor Sponsorship Type Benefits Cost Gold 1 year logo on Marketing Material for all CJUG Events (CJUG4Kids, Polyglot, Meetups); First dibs on venue (with a non-sponsored speaker) All Silver benefits $3000 (only 2 of these available) Silver Logo on web properties (website, Meetup page); Logo on meetup slides $1500 Friends of Polyglot Logo on Polyglot Party as a sponsor $1000 Friends of CJUG4Kids Logo on CJUG4Kids events $1000 Conference Scholarship Logo and Thank You in CJUG newsletter on Scholarship Award Announcement $1000</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome on CJUG</title><link>https://cjug.org/</link><description>Recent content in Welcome on CJUG</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://cjug.org/index.xml" rel="self" type="application/rss+xml"/><item><title>About</title><link>https://cjug.org/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cjug.org/about/</guid><description>&lt;h1 id="about-cjug">About CJUG&lt;/h1>
+&lt;p>The Chicago Java User’s Group is here to help the Java Professional. We want to make Chicago the ‘best’ place to be a Java developer, by offering a support network that allows each individual Java developer to grow! Its only purpose it to serve its community by focusing in three areas:&lt;/p>
+&lt;h2 id="learning-about-the-java-craft">Learning about the Java Craft&lt;/h2>
+&lt;p>Java is a very expansive language, with new innovations coming out the door every other day, and more refined techniques being contributed by the community non-stop. Here at CJUG, we want to help our members to learn how to be better at what they already practice, thus, becoming better at their craft; also, there are always people willing to teach and help those that are just starting to walk through the same professional path. The CJUG is committed to help those willing to teach be matched with those wanting to listen. As such mentor activities and initiatives are scheduled for inclusion. To do so, we are continually expanding our support activities including:&lt;/p></description></item><item><title>Events</title><link>https://cjug.org/events/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cjug.org/events/</guid><description>&lt;h1 id="oss">OSS&lt;/h1>
+&lt;p>&lt;img src="https://cjug.org/images/duke_needs_you.jpeg" alt="Duke needs you">&lt;/p>
+&lt;p>The CJUG became involved in the Adopt-a-JSR program in 2014, when we officially adopted JSR 366, the Java Platform, Enterprise Edition 8 Umbrella specification. The Adopt-a-JSR program is led by the Java Community Process (JCP), with a goal of getting JUGs more involved with the Java specifications process. During our tenure as Adopt-a-JSR participants, we have held a number of sessions in person and online, in an effort to help foster each of the different JSRs that came together to comprise Java EE 8 and Java SE 9.&lt;/p></description></item><item><title>People</title><link>https://cjug.org/people/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cjug.org/people/</guid><description>&lt;h1 id="officers-board-and-staff">Officers, Board, and Staff&lt;/h1>
+&lt;h2 id="officers--board">Officers &amp;amp; Board&lt;/h2>
+&lt;h4 id="president---mary-grygleski">President - Mary Grygleski&lt;/h4>
+&lt;p>&lt;img src="https://www.gravatar.com/avatar/61a93dca0178c41a915f6cf0de2c0834?size=150" alt="Mary Grygleski&amp;rsquo;s avatar">
+Mary is a passionate Developer Evangelist and Software Engineer who has been riding the tech wave since the early 90&amp;rsquo;s, starting with Unix/C, then Java and Open source, Cloud, and now with GenAI. She is a very active member of the software community.&lt;/p>
+&lt;h4 id="chairman-of-the-board---bob-paulin">Chairman of the Board - Bob Paulin&lt;/h4>
+&lt;p>&lt;img src="https://www.gravatar.com/avatar/9f1b7a87fd5d5264ef633750a534e1eb?size=150" alt="Bob Paulin&amp;rsquo;s avatar">
+Bob Paulin is an independent consultant and speaker that has been developing open source software for the past 10 years. Bob has presented at large international conferences such as ApacheCon, JavaOne and Devnexus. He frequently shares his knowledge and opinions on the Java Pub House and Java Off Heap podcasts. Bob is actively involved in the Chicago Java User Group (CJUG) and CJUG4Kids presenter/organizer. Bob is a passionate member of the ASF and donates his time to Apache Felix and Apache Tika as a committer and PMC respectively. When not coding, Bob enjoys coaching football, robotics, and spending time with his wife and 4 kids.&lt;/p></description></item><item><title>Sponsors</title><link>https://cjug.org/sponsors/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cjug.org/sponsors/</guid><description>&lt;h2 id="past-sponsors">Past Sponsors&lt;/h2>
+&lt;h4 id="gold-2021-2022---silver-2023">GOLD (2021, 2022) - SILVER (2023)&lt;/h4>
+&lt;p>&lt;a href="https://jfrog.com/">&lt;img src="https://cjug.org/images/jfrog.png" alt="JFrog">&lt;/a>&lt;/p>
+&lt;h4 id="silver-2023">SILVER (2023)&lt;/h4>
+&lt;p>&lt;a href="https://fusionauth.io/?utm_medium=paid_referral&amp;amp;utm_source=chicago_jug&amp;amp;utm_campaign=meetup">&lt;img src="https://cjug.org/images/FusionAuth.png" alt="FusionAuth">&lt;/a>&lt;/p>
+&lt;p>&lt;!-- raw HTML omitted -->&lt;!-- raw HTML omitted -->&lt;/p>
+&lt;h1 id="be-a-sponsor">Be a Sponsor&lt;/h1>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: left">Sponsorship Type&lt;/th>
+ &lt;th style="text-align: center">Benefits&lt;/th>
+ &lt;th style="text-align: right">Cost&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: left">Gold&lt;/td>
+ &lt;td style="text-align: center">1 year logo on Marketing Material for all CJUG Events (CJUG4Kids, Polyglot, Meetups); First dibs on venue (with a non-sponsored speaker) All Silver benefits&lt;/td>
+ &lt;td style="text-align: right">$3000 (only 2 of these available)&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Silver&lt;/td>
+ &lt;td style="text-align: center">Logo on web properties (website, Meetup page); Logo on meetup slides&lt;/td>
+ &lt;td style="text-align: right">$1500&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Friends of Polyglot&lt;/td>
+ &lt;td style="text-align: center">Logo on Polyglot Party as a sponsor&lt;/td>
+ &lt;td style="text-align: right">$1000&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Friends of CJUG4Kids&lt;/td>
+ &lt;td style="text-align: center">Logo on CJUG4Kids events&lt;/td>
+ &lt;td style="text-align: right">$1000&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: left">Conference Scholarship&lt;/td>
+ &lt;td style="text-align: center">Logo and Thank You in CJUG newsletter on Scholarship Award Announcement&lt;/td>
+ &lt;td style="text-align: right">$1000&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item></channel></rss>
